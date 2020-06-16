@@ -6,6 +6,7 @@ class Solution {
     public String[] solution(int n, int[] arr1, int[] arr2) {
         int[][] map1 = new int[n][n];
         int[][] map2 = new int[n][n];
+        
         String[][] post_answer = new String[n][n];
         String[] answer = new String[n];
         for(int i = 0; i < n; i++){
